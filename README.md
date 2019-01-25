@@ -11,7 +11,7 @@ Registration page with following data [name, email, password, photo] with login 
 ## Used Tools
 Task is implemented via php and mysql database using xampp sever.
 ## How to start
-Watch the [demo](https://youtu.be/L2CMn52tYO8)
+Watch the [demo](https://youtu.be/L2CMn52tYO8)<br />
 1-Setup [xampp](http://mrbool.com/how-to-install-xampp-server-in-windows/28257) and run it using the provided steps in the link.<br />
 2-Create in the mysql accounts database,you may set a password and change it in dbcontroller.php file.<br />
 3-Download [Sourcecode](https://codeload.github.com/BeshoyAnwar/registeration-page-task-intcore/zip/master),extract and put the reg folder in the path:"c:\xampp\htdoc\".<br />
