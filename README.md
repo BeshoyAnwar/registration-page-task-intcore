@@ -8,7 +8,7 @@ Registration page with following data [name, email, password, photo] with login 
 4-After login is done then redirecting to update profile page to update all information name, email, password, photo.<br />
 5-User can logout from his account.<br />
 ## Used Tools
-Task is implemented via php and mysql database using xampp sever.
+Task is implemented via php and mysql database using xampp server.
 ## How to start
 Watch the [demo](https://youtu.be/L2CMn52tYO8)<br />
 1-Setup [xampp](http://mrbool.com/how-to-install-xampp-server-in-windows/28257) and run it using the provided steps in the link.<br />
