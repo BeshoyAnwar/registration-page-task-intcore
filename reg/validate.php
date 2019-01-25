@@ -34,6 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 						header( "location: login.php" );
 						if($db_handle->insertQuery($sql))
 						{
+							/* sending email */
 							/*   //$base_url = "http://localhost/tutorial/email-address-verification-script-using-php/";
 							   $mail_body = "
 							   <p>Hi ".$username.",</p>
@@ -59,8 +60,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 							   {
 								$message = '<label class="text-success">Register Done, Please check your mail.</label>';
 							   }*/
-							  ini_set("SMTP","ssl://smtp.gmail.com");
-								ini_set("smtp_port","465");
+							ini_set("SMTP","ssl://smtp.gmail.com");
+							ini_set("smtp_port","465");
 							$_SESSION['message'] = "Registration succesful!";
 							//send email to user to thank him
 							$subject = "Registeration successful";
