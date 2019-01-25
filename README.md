@@ -1,7 +1,6 @@
 # registration-page-task-intcore
 Registration page with following data [name, email, password, photo] with login form with email and password addition to remember me checkbox implemented using php and mysql database.
 
-# registration-page-task-intcore
 ## Features
 1-Registration page with following data: name, email, password, photo.<br />
 2-Password should be *Hashed* and validations is provided.<br />
