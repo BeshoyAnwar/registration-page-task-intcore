@@ -13,5 +13,5 @@ Task is implemented via php and mysql database using xampp sever.
 ## How to start
 1-Setup [xampp](http://mrbool.com/how-to-install-xampp-server-in-windows/28257)<br />
 2-Create in the mysql accounts database,you may set a password and change it in dbcontroller.php file<br />
-3-Download [Source code](https://codeload.github.com/BeshoyAnwar/registeration-page-task-intcore/zip/master) and put the reg folder in the path:"c:\xampp\htdoc\"<br />
+3-Download [Source code](https://codeload.github.com/BeshoyAnwar/registeration-page-task-intcore/zip/master),extract and put the reg folder in the path:"c:\xampp\htdoc\"<br />
 4-from any browser goto "http://localhost/reg/form.php"<br />
